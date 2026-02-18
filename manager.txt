@@ -1,0 +1,33 @@
+MANAGER ROLE
+============
+
+RESPONSIBILITIES:
+- Team leadership and supervision
+- Performance management and feedback
+- Project planning and oversight
+- Resource allocation
+- Budget management
+- Stakeholder communication
+- Problem-solving and conflict resolution
+- Staff development and training
+
+REQUIRED SKILLS:
+- Leadership
+- Communication
+- Decision-making
+- Problem-solving
+- Time management
+- Technical knowledge (domain-specific)
+- Emotional intelligence
+
+REPORTING STRUCTURE:
+- Reports to: [Director/VP]
+- Manages: [Number] team members
+- Cross-functional collaboration with: [Departments]
+
+KEY PERFORMANCE INDICATORS:
+- Team productivity
+- Employee satisfaction scores
+- Project completion rates
+- Budget adherence
+- Staff retention rate

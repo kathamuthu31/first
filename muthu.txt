@@ -1,0 +1,132 @@
+PS C:\Users\DELL\Desktop\git> git clone https://github.com/kathamuthu31/mergeconflict.git
+Cloning into 'mergeconflict'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (10/10), done.
+PS C:\Users\DELL\Desktop\git> cd mergeconflict
+PS C:\Users\DELL\Desktop\git\mergeconflict> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\Desktop\git\mergeconflict> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    text,txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\DELL\Desktop\git\mergeconflict> git add text,txt
+PS C:\Users\DELL\Desktop\git\mergeconflict> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    text,txt
+
+PS C:\Users\DELL\Desktop\git\mergeconflict> git commit -m "delete"
+[main c092628] delete
+ 1 file changed, 1 deletion(-)
+ delete mode 100644 text,txt
+PS C:\Users\DELL\Desktop\git\mergeconflict> git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/branch1
+  remotes/origin/branch2
+  remotes/origin/main
+PS C:\Users\DELL\Desktop\git\mergeconflict> git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (2/2), 188 bytes | 188.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kathamuthu31/mergeconflict.git
+   51caea3..c092628  main -> main
+PS C:\Users\DELL\Desktop\git\mergeconflict> git checkout branch1
+branch 'branch1' set up to track 'origin/branch1'.
+Switched to a new branch 'branch1'
+PS C:\Users\DELL\Desktop\git\mergeconflict> git status
+On branch branch1
+Your branch is up to date with 'origin/branch1'.
+
+nothing to commit, working tree clean
+PS C:\Users\DELL\Desktop\git\mergeconflict> cd ..                                                      
+PS C:\Users\DELL\Desktop\git> git clone https://github.com/kathamuthu31/HTMLActorpage.git
+Cloning into 'HTMLActorpage'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+PS C:\Users\DELL\Desktop\git> 
+ *  History restored 
+
+PS C:\Users\DELL\Desktop\git> git add .
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\DELL\Desktop\git> cd first
+PS C:\Users\DELL\Desktop\git\first> git add .
+PS C:\Users\DELL\Desktop\git\first> git branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+* gitbranch4
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+PS C:\Users\DELL\Desktop\git\first> git branch muthubranch
+PS C:\Users\DELL\Desktop\git\first> git branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+* gitbranch4
+  main
+  muthubranch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+PS C:\Users\DELL\Desktop\git\first> git checkout muthubranch
+A       muthu.txt
+Switched to branch 'muthubranch'
+PS C:\Users\DELL\Desktop\git\first> git  branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+  gitbranch4
+  main
+* muthubranch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+PS C:\Users\DELL\Desktop\git\first> git commit -m "muthu file"
+[muthubranch 69c142f] muthu file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 muthu.txt
+PS C:\Users\DELL\Desktop\git\first> git push origin muthubranch
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 228 bytes | 228.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'muthubranch' on GitHub by visiting:
+remote:      https://github.com/kathamuthu31/first/pull/new/muthubranch
+remote:
+To https://github.com/kathamuthu31/first.git
+ * [new branch]      muthubranch -> muthubranch
+PS C:\Users\DELL\Desktop\git\first> 

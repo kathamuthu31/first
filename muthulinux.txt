@@ -1,1 +1,193 @@
-linux
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git$ cd first
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ ls
+employees2.txt  manager.txt  muthu.txt  new.txt  new2.txt
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git add .
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git commit -m "using linux"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <kathamuthu@DESKTOP-G87ME6P.>) not allowed
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git config --global user.email "kathamuththu31@gmail.com"
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git config --global user.name "kathamuthu31"
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git commit -m "using linux"
+[muthubranch 450c2e5] using linux
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+  gitbranch4
+  main
+* muthubranch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+  remotes/origin/muthubranch
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git log
+commit 450c2e51a563970f0e07234ede200742c4ed1d4e (HEAD -> muthubranch)
+Merge: 20acdcf 9285186
+Author: kathamuthu31 <kathamuththu31@gmail.com>
+Date:   Mon Mar 9 17:42:17 2026 +0000
+
+    using linux
+
+commit 20acdcf2ae5a349ad0803fa9056ce1d4772287e8 (origin/muthubranch)
+Author: kathamuthu31 <kathamuththu31@gmail.com>
+Date:   Mon Mar 9 22:59:46 2026 +0530
+
+    9/03/2026 gitwork
+
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+  gitbranch4
+  main
+* muthubranch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+  remotes/origin/muthubranch
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuththu31@gmail.com
+Password for 'https://kathamuththu31@gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuthu31
+Password for 'https://kathamuthu31@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuththu31@gmail.com
+Password for 'https://kathamuththu31@gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuththu31@gmail.com
+Password for 'https://kathamuththu31@gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ cd
+kathamuthu@DESKTOP-G87ME6P:~$ ls
+one  text1
+kathamuthu@DESKTOP-G87ME6P:~$ cd ..
+kathamuthu@DESKTOP-G87ME6P:/home$ cd
+kathamuthu@DESKTOP-G87ME6P:~$ cd /mnt/c/Users/DELL/Desktop/git/first
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ ls
+employees2.txt  manager.txt  muthu.txt  muthulinux.txt  new.txt  new2.txt
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ cat manager.txt
+MANAGER ROLE
+============
+
+RESPONSIBILITIES:
+- Team leadership and supervision
+- Performance management and feedback
+- Project planning and oversight
+- Resource allocation
+- Budget management
+- Stakeholder communication
+- Problem-solving and conflict resolution
+- Staff development and training
+
+REQUIRED SKILLS:
+- Leadership
+- Communication
+- Decision-making
+- Problem-solving
+- Time management
+- Technical knowledge (domain-specific)
+- Emotional intelligence
+
+REPORTING STRUCTURE:
+- Reports to: [Director/VP]
+- Manages: [Number] team members
+- Cross-functional collaboration with: [Departments]
+
+KEY PERFORMANCE INDICATORS:
+- Team productivity
+- Employee satisfaction scores
+- Project completion rates
+- Budget adherence
+- Staff retention ratekathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ vi muthu
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ ls
+employees2.txt  manager.txt  muthu  muthu.txt  muthulinux.txt  new.txt  new2.txt
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git status
+On branch muthubranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        muthu
+
+nothing added to commit but untracked files present (use "git add" to track)
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git add .
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git status
+On branch muthubranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   muthu
+
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git commit -m "ahbjs"
+[muthubranch 540e872] ahbjs
+ 1 file changed, 1 insertion(+)
+ create mode 100644 muthu
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git branch -a
+  gitbranch1
+  gitbranch2
+  gitbranch3
+  gitbranch4
+  main
+* muthubranch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/gitbranch1
+  remotes/origin/gitbranch2
+  remotes/origin/gitbranch3
+  remotes/origin/gitbranch4
+  remotes/origin/main
+  remotes/origin/muthubranch
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuththu31@gmail.com
+Password for 'https://kathamuththu31@gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuththu31@gmail.com
+Password for 'https://kathamuththu31@gmail.com@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+fatal: unable to access 'https://github.com/kathamuthu31/first.git/': Could not resolve host: github.com
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuthu31
+Password for 'https://kathamuthu31@github.com': 
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/kathamuthu31/first.git/'
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git push origin muthubranch
+Username for 'https://github.com': kathamuthu31
+Password for 'https://kathamuthu31@github.com': 
+Enumerating objects: 15, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 1.85 KiB | 18.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To https://github.com/kathamuthu31/first.git
+   20acdcf..540e872  muthubranch -> muthubranch
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$ git status
+On branch muthubranch
+nothing to commit, working tree clean
+kathamuthu@DESKTOP-G87ME6P:/mnt/c/Users/DELL/Desktop/git/first$
